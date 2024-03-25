@@ -46,7 +46,7 @@ def start_server(port=default_port):
 
     app = Flask(__name__,template_folder=template_folder,static_folder = static_folder)
 
-    with open("/content/drive/MyDrive/Major Project/Training/model.pkl","rb") as model_file:
+    with open("Training/model.pkl","rb") as model_file:
               model=pickle.load(model_file)
 
 
