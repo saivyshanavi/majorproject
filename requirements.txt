@@ -3,7 +3,6 @@ Flask==2.2.5
 pandas==1.5.3
 requests==2.31.0
 IPython==7.34.0
-pickle==4.0
 werkzeug==3.0.1
 matplotlib==3.7.1
 seaborn==0.13.1
