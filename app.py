@@ -41,8 +41,8 @@ def start_server(port=default_port):
       print('stopping server')
       stop_server()
 
-    template_folder = 'Flask/template'
-    static_folder = 'Flask/Static'
+    template_folder = 'template'
+    static_folder = 'Static'
 
     app = Flask(__name__,template_folder=template_folder,static_folder = static_folder)
 
