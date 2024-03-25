@@ -7,8 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1VzLxXYTpLyMfUnE9Eolf6lo7nszQISDF
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+
 
 import pickle
 import pandas as pd
